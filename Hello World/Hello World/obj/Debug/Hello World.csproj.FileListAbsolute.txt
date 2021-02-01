@@ -1,0 +1,6 @@
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\Hello World\Hello World\bin\Debug\Hello World.exe.config
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\Hello World\Hello World\bin\Debug\Hello World.exe
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\Hello World\Hello World\bin\Debug\Hello World.pdb
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\Hello World\Hello World\obj\Debug\Hello World.csprojResolveAssemblyReference.cache
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\Hello World\Hello World\obj\Debug\Hello World.exe
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\Hello World\Hello World\obj\Debug\Hello World.pdb
