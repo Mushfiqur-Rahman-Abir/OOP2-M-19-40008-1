@@ -1,0 +1,6 @@
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\7th semester(2020-21,spring)\OOP2(C Sharp)\MID\PROJECT\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
