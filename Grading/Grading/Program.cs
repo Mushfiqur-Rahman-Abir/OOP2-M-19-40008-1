@@ -16,8 +16,8 @@ namespace Grading
             int bio = 65;
             int math = 60;
             int Com = 90;
-
-            if (a >= 90) 
+            a = ((phy * 3) + (che * 3) + (bio * 3) + (math * 3) + (Com * 3)) / 12;
+            if (a >= 90)
             {
                 Console.WriteLine("GRADE A+");
             }
