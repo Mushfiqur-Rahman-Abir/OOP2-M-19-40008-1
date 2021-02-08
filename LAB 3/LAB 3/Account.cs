@@ -8,9 +8,9 @@ namespace LAB_3
 {
     class Account
     {
-        string accName;
-        string acid;
-        int balance;
+        public string accName;
+        public string acid;
+        public int balance;
         int amount;
 
         public string AccName
@@ -73,7 +73,12 @@ namespace LAB_3
                     Console.WriteLine("Can not withdraw.");
                 }
             }
-
+         public void ShowInfo()
+        {
+            Console.WriteLine("Account Name is: " + accName);
+            Console.WriteLine("ID is: " + acid);
+            Console.WriteLine("Balance is: " + balance);
+        }
         }
     }
-}
+

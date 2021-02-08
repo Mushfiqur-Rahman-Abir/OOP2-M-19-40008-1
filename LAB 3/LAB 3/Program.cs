@@ -33,6 +33,15 @@ namespace LAB_3
 
             Course c2= new Course("Web Tech", "20202", 3);
             c2.ShowInfo();
+
+            Account a1 = new Account("ABIR","1111",20000);
+            a1.ShowInfo();
+
+            Account a2 = new Account();
+            a2.accName = "SABIR";
+            a2.acid = "2222";
+            a2.balance = 30000;
+            a2.ShowInfo();
         }
     }
 }
