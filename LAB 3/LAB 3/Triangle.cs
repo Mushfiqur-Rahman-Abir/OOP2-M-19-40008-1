@@ -42,11 +42,11 @@ namespace LAB_3
 
         public void TestTriangle()
         {
-            if(x==y && y==z)
+            if (x == y && y == z && x == z)
             {
                 Console.WriteLine("The Triangle is Equilateral.");
             }
-            else if(x==y)
+            else if (x == y || x == z || y == z)
             {
                 Console.WriteLine("The Triangle is Isosceles.");
             }
@@ -57,18 +57,10 @@ namespace LAB_3
         }
         public void ShowInfo()
         {
-            if (x == y && y == z && x==z)
-            {
-                Console.WriteLine("The Triangle is Equilateral.");
-            }
-            else if (x == y || x==z || y==z)
-            {
-                Console.WriteLine("The Triangle is Isosceles.");
-            }
-            else
-            {
-                Console.WriteLine("The Triangle is Scalene.");
-            }
+
+            Console.WriteLine("X: " + x);
+            Console.WriteLine("Y: " + y);
+            Console.WriteLine("Z: " + Z);
         }
 
     }

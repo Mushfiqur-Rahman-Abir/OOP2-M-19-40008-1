@@ -11,7 +11,7 @@ namespace LAB_3
         public string accName;
         public string acid;
         public int balance;
-        int amount;
+        public int amount;
 
         public string AccName
         {
@@ -47,12 +47,12 @@ namespace LAB_3
             this.balance = balance;
         }
 
-        public void deposit()
+        public void deposit(int amount)
         {
             if(balance>0)
             {
-                balance += amount;
-                Console.WriteLine("Diposited: " +balance);
+                this.balance = balance + amount;
+                Console.WriteLine("After Diposite: " +balance);
             }
             else
             {
@@ -61,12 +61,12 @@ namespace LAB_3
                 
         }
 
-            public void withdraw()
+            public void withdraw(int amount)
             {
                 if(amount>0 && amount<=balance)
                 {
                     this.balance = balance - amount;
-                    Console.WriteLine("Withdraw: "+balance);
+                    Console.WriteLine("After Withdraw: "+balance);
                 }
                 else
                 {

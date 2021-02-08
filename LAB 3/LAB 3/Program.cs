@@ -36,12 +36,18 @@ namespace LAB_3
 
             Account a1 = new Account("ABIR","1111",20000);
             a1.ShowInfo();
+            a1.Amount=1000;
+            a1.deposit(1000);
+            a1.withdraw(10000);
 
             Account a2 = new Account();
             a2.accName = "SABIR";
             a2.acid = "2222";
             a2.balance = 30000;
             a2.ShowInfo();
+            a2.Amount = 4000;
+            a2.deposit(4000);
+            a2.withdraw(15000);
         }
     }
 }
