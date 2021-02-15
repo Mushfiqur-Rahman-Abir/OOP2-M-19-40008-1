@@ -31,17 +31,41 @@ namespace Array
 
             Console.WriteLine();
 
-           Console.WriteLine("Copy Array");
+           Console.WriteLine("Copying Array to another Array");
+
+           Console.WriteLine();
 
             int[] arr2 = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
             int[] arr3 = new int[] {8,9,12,15,17,89};
-            for(int i=0;i < arr2.Length;i++)
+
+            Console.WriteLine("1st Array");
+            for (int i = 0; i < arr2.Length; i++)
             {
-               arr3= arr2;
-                Console.WriteLine(arr3);
+                Console.WriteLine(arr2[i] + " ");
             }
 
             Console.WriteLine();
+
+            Console.WriteLine("2nd Array");
+            for (int i = 0; i < arr3.Length; i++)
+            {
+                Console.WriteLine(arr3[i] + " ");
+            }
+
+            for (int i = 0; i < arr2.Length; i++)
+            {
+                arr3 = arr2;
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("Copy Array");
+            for (int i = 0; i < arr3.Length; i++)
+            {
+                Console.WriteLine(arr3[i] + " ");
+            }
+
+                Console.WriteLine();
 
             Console.WriteLine("Duplicate finding Array");
 
