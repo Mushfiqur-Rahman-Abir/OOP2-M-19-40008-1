@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LAB_3
+namespace Account_System
 {
     class Account
     {
@@ -12,7 +12,6 @@ namespace LAB_3
         string acid;
         int balance;
         int amount;
-        int transfer;
         Account acc;
 
 
@@ -37,12 +36,6 @@ namespace LAB_3
             get { return amount; }
         }
 
-        public int Transfer
-        {
-            set { transfer = value; }
-            get { return transfer; }
-        }
-
         public Account Acc
         {
             set { acc = value; }
@@ -56,7 +49,7 @@ namespace LAB_3
 
         public Account(string accName, string acid, int balance)
         {
-            Console.WriteLine("Student Created with 3 parameters.");
+            Console.WriteLine("Account Created with 3 parameters.");
             this.accName = accName;
             this.acid = acid;
             this.balance = balance;
@@ -66,8 +59,8 @@ namespace LAB_3
         {
             if (balance > 0)
             {
-                this.balance = balance + amount;
-                Console.WriteLine("After Diposite: " + balance);
+                balance = balance + amount;
+                Console.WriteLine("After Diposite: " +balance);
             }
             else
             {
@@ -80,8 +73,8 @@ namespace LAB_3
         {
             if (amount > 0 && amount <= balance)
             {
-                this.balance = balance - amount;
-                Console.WriteLine("After Withdraw: " + balance);
+                balance = balance - amount;
+                Console.WriteLine("After Withdraw: " +balance);
             }
             else
             {
@@ -91,18 +84,29 @@ namespace LAB_3
 
         public void Transfer(int amount,Account acc)
         {
-            if(amount>0 && amount<=balance)
+            if (amount > 0 && amount <= balance)
             {
-                this.balance = this.balance - amount;
-                acc.balance = acc.balance + amount;
+
+                
+                Console.WriteLine("Transfer amount:" + amount);
+                balance = balance - amount;
+                Console.WriteLine("After Transfer Balance:" + this.balance);
+                balance = balance + amount;
+                Console.WriteLine("Recieve amount:" + amount);
+                
             }
+            else
+                Console.WriteLine("Amount Exceeded");
         }
+
+        
+            
+        
         public void ShowInfo()
         {
             Console.WriteLine("Account Name is: " + accName);
             Console.WriteLine("ID is: " + acid);
             Console.WriteLine("Balance is: " + balance);
-            Console.WriteLine("");
         }
     }
 }
